@@ -1,11 +1,13 @@
 import Header from '@/components/header'
+import Hero from '@/components/hero'
 import Image from 'next/image'
 
 
 export default function Home() {
   return (
-    <main className='bg-cyan-600 h-screen relative flex flex-col justify-center items-center '>
+    <main className='relative flex flex-col justify-start items-center '>
       <Header />
+      <Hero />
     </main>
   )
 }
