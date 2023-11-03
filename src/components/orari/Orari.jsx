@@ -1,17 +1,27 @@
 const Orari = () => {
 	return (
-		<div className="lg:container bg-cyan-900 text-gray-400 w-full p-5 flex flex-wrap justify-center items-center">
-			<div className="w-1/2 text-center">
-				<h2>Orari Santa Messa e Adorazione</h2>
-			</div>
-			<div className="w-1/2 flex flex-col justify-center items-center gap-5 text-center">
-				<div className="border rounded-lg p-3">
-					<p>Messa</p>
-					<p>16:00 - 18:00</p>
+		<div className="lg:container w-full bg-slate-500 flex flex-col justify-center items-center p-5 ">
+			<h1>Orari</h1>
+			<div className="flex flex-col md:flex-row justify-around w-full md:items-start items-center gap-5">
+				<div className="flex flex-col justify-center items-center">
+					<h2>Santa Messa</h2>
+					<div className="flex justify-center items-center gap-5">
+						<h2 className="border border-gray-400 rounded-lg p-3 hover:text-white transition-all hover:shadow-2xl hover:shadow-white">
+							9:30
+						</h2>
+						<h2 className="border border-gray-400 rounded-lg p-3 hover:text-white transition-all hover:shadow-2xl hover:shadow-white">
+							11:30
+						</h2>
+						<h2 className="border border-gray-400 rounded-lg p-3 hover:text-white transition-all hover:shadow-2xl hover:shadow-white">
+							18:00
+						</h2>
+					</div>
 				</div>
-				<div className="border rounded-lg p-3">
-					<p>Adorazione</p>
-					<p>21:00 - 23:00</p>
+				<div className="flex flex-col justify-center items-center ">
+					<h2>Adorazione</h2>
+					<h3 className="border border-gray-400 rounded-lg p-3 hover:text-white transition-all hover:shadow-2xl hover:shadow-white">
+						Mercoledì alle 21:00
+					</h3>
 				</div>
 			</div>
 		</div>
