@@ -20,7 +20,7 @@ import logo from "@/assets/logo.png";
 
 const Hero = () => {
 	return (
-		<div className="w-screen lg:container h-screen md:h-[600px]">
+		<div className="w-full lg:container md:h-[600px]">
 			<Swiper
 				className="relative"
 				spaceBetween={30}
@@ -36,7 +36,7 @@ const Hero = () => {
 				modules={[Autoplay, Pagination, EffectFade]}
 			>
 				<div className="absolute z-20 text-slate-400 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full flex flex-col justify-center items-center">
-					<h1 className="after:content-[''] after:absolute after:bottom-0 after:border after:border-slate-400 after:w-full after:left-0 relative">
+					<h1 className="after:content-[''] after:absolute after:bottom-0 after:border after:border-slate-400 after:w-full after:left-0 relative text-center ">
 						Chiesa Annunciazione del Signore
 					</h1>
 					<Image
